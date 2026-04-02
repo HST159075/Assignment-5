@@ -22,7 +22,7 @@ A full-stack Movie and Series Rating Portal where users can explore, rate, and r
 
 ```
 Email:    alam18@gmail.com
-Password: (add your password here)
+Password: (123456789)
 ```
 
 ---
@@ -80,13 +80,13 @@ Password: (add your password here)
 - **Node.js** + **Express.js**
 - **Prisma ORM**
 - **PostgreSQL**
-- **JWT Authentication**
-- **SSLCommerz** (Payment Gateway)
+- **Better Auth**
+- **SSLCommerz**
 
 ### Deployment
 - Frontend → **Vercel**
 - Backend → **Render**
-- Database → **PostgreSQL** (Render / Supabase)
+- Database → **PostgreSQL** 
 
 ---
 
@@ -120,61 +120,13 @@ cd Tube-server
 npm install
 ```
 
-Create `.env` file:
 
-```env
-DATABASE_URL=postgresql://user:password@localhost:5432/cinetube
-JWT_SECRET=your_jwt_secret
 
-BETTER_AUTH_SECRET=your_better_auth_secret
-BETTER_AUTH_URL=http://localhost:5000
 
-FRONTEND_URL=http://localhost:3000
-BACKEND_URL=http://localhost:5000
-
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-
-SSL_STORE_ID=your_sslcommerz_store_id
-SSL_STORE_PASSWORD=your_sslcommerz_store_password
-```
-
-Run migrations and start:
-
-```bash
-npx prisma migrate dev
-npx prisma db seed   # optional: seed sample data
-npm run dev
-```
-
-Backend runs on → `http://localhost:5000`
-
----
-
-### 3. Frontend Setup
-
-```bash
-cd Tube-client
-npm install
-```
-
-Create `.env.local` file:
-
-```env
-NEXT_PUBLIC_API_URL=http://localhost:5000/api/v1
-BETTER_AUTH_SECRET=your_better_auth_secret
-BETTER_AUTH_URL=http://localhost:3000
-```
 
 Start:
 
-```bash
-npm run dev
-```
 
-Frontend runs on → `http://localhost:3000`
-
----
 
 ## 💳 Payment Integration
 
@@ -244,7 +196,7 @@ Supported methods:
 
 ## 👨‍💻 Developer
 
-**Alam**
+**Tasin**
 - GitHub: [@HST159075](https://github.com/HST159075)
 
 ---
