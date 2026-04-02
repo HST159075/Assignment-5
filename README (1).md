@@ -10,7 +10,7 @@ A full-stack Movie and Series Rating Portal where users can explore, rate, and r
 
 | Service | URL |
 |---|---|
-| 🌐 Frontend | [https://project-frontend.vercel.app](https://tube-client.vercel.app/) |
+| 🌐 Frontend | [https://tube-client.vercel.app](https://tube-client.vercel.app/) |
 | ⚙️ Backend API | [https://tube-server.onrender.com](https://tube-server.onrender.com) |
 | 📁 Frontend Repo | [https://github.com/HST159075/Tube-client](https://github.com/HST159075/Tube-client) |
 | 📁 Backend Repo | [https://github.com/HST159075/Tube-server](https://github.com/HST159075/Tube-server) |
