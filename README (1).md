@@ -10,7 +10,7 @@ A full-stack Movie and Series Rating Portal where users can explore, rate, and r
 
 | Service | URL |
 |---|---|
-| 🌐 Frontend | [https://project-frontend.vercel.app](https://project-frontend.vercel.app) |
+| 🌐 Frontend | [https://project-frontend.vercel.app](https://tube-client.vercel.app/) |
 | ⚙️ Backend API | [https://tube-server.onrender.com](https://tube-server.onrender.com) |
 | 📁 Frontend Repo | [https://github.com/HST159075/Tube-client](https://github.com/HST159075/Tube-client) |
 | 📁 Backend Repo | [https://github.com/HST159075/Tube-server](https://github.com/HST159075/Tube-server) |
@@ -31,7 +31,7 @@ Password: (123456789)
 
 ### 👤 User
 - Register & login with email/password or Google OAuth
-- Browse movies & series by genre, platform, rating, year
+- Browse movies & series by genre, rating, year
 - Rate titles on a **1–10 scale** and write reviews
 - Add **spoiler warnings** and **tags** to reviews
 - Like/unlike reviews and comment on them
@@ -63,16 +63,13 @@ Password: (123456789)
 | Payment Success | `/payment/success` |
 | Payment Failed | `/payment/failed` |
 | About | `/about` |
-| Contact | `/contact` |
-| FAQ | `/faq` |
-| Privacy Policy | `/privacy` |
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **Next.js 14** (App Router)
+- **Next.js 14**
 - **TypeScript**
 - **Better Auth** (Authentication)
 
@@ -98,35 +95,6 @@ Password: (123456789)
 - SSLCommerz sandbox account
 
 ---
-
-### 1. Clone Repositories
-
-```bash
-# Frontend
-git clone https://github.com/HST159075/Tube-client.git
-cd Tube-client
-
-# Backend
-git clone https://github.com/HST159075/Tube-server.git
-cd Tube-server
-```
-
----
-
-### 2. Backend Setup
-
-```bash
-cd Tube-server
-npm install
-```
-
-
-
-
-
-Start:
-
-
 
 ## 💳 Payment Integration
 
@@ -201,6 +169,3 @@ Supported methods:
 
 ---
 
-## 📝 License
-
-This project is built for educational purposes as part of a full-stack web development assignment.
