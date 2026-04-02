@@ -14,7 +14,7 @@ A full-stack Movie and Series Rating Portal where users can explore, rate, and r
 | ⚙️ Backend API | [https://tube-server.onrender.com](https://tube-server.onrender.com) |
 | 📁 Frontend Repo | [https://github.com/HST159075/Tube-client](https://github.com/HST159075/Tube-client) |
 | 📁 Backend Repo | [https://github.com/HST159075/Tube-server](https://github.com/HST159075/Tube-server) |
-| 🎥 Demo Video | _Coming soon_ |
+| 🎥 Demo Video | https://drive.google.com/file/d/18VTk2ig0E7nOjSoFXfZHPL5hvbcOTWOl/view?usp=sharing|
 
 ---
 
